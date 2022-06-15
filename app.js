@@ -9,6 +9,7 @@ const myMap = {
 	buildMap() {
 		this.map = L.map('map', {
 		center: this.coordinates,
+		
 		zoom: 11,
 		});
 		// add openstreetmap tiles
